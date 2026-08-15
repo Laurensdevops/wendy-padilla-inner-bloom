@@ -41,32 +41,33 @@
 
 :root {
   --radius: 0.75rem;
-  /* Warm earth palette */
-  --background: oklch(0.982 0.008 80);        /* bone white */
-  --foreground: oklch(0.28 0.02 40);          /* deep warm brown */
-  --card: oklch(0.965 0.012 75);
-  --card-foreground: oklch(0.28 0.02 40);
-  --popover: oklch(0.982 0.008 80);
-  --popover-foreground: oklch(0.28 0.02 40);
-  --primary: oklch(0.52 0.10 40);             /* terracotta */
-  --primary-foreground: oklch(0.98 0.008 80);
-  --secondary: oklch(0.93 0.015 75);          /* sand */
-  --secondary-foreground: oklch(0.32 0.03 40);
-  --muted: oklch(0.94 0.012 75);
-  --muted-foreground: oklch(0.48 0.02 45);
-  --accent: oklch(0.62 0.05 140);             /* sage */
-  --accent-foreground: oklch(0.98 0.008 80);
+  /* Soft lilac / violet palette */
+  --background: oklch(0.983 0.010 310);       /* lila muy claro */
+  --foreground: oklch(0.30 0.05 305);         /* violeta profundo */
+  --card: oklch(0.965 0.018 308);
+  --card-foreground: oklch(0.30 0.05 305);
+  --popover: oklch(0.983 0.010 310);
+  --popover-foreground: oklch(0.30 0.05 305);
+  --primary: oklch(0.52 0.15 305);            /* lila principal */
+  --primary-foreground: oklch(0.985 0.010 310);
+  --secondary: oklch(0.93 0.030 305);         /* lavanda suave */
+  --secondary-foreground: oklch(0.34 0.06 305);
+  --muted: oklch(0.94 0.022 305);
+  --muted-foreground: oklch(0.50 0.04 305);
+  --accent: oklch(0.66 0.11 320);             /* orquídea */
+  --accent-foreground: oklch(0.985 0.010 310);
   --destructive: oklch(0.55 0.20 27);
-  --destructive-foreground: oklch(0.98 0.008 80);
-  --border: oklch(0.88 0.015 70);
-  --input: oklch(0.90 0.015 70);
-  --ring: oklch(0.52 0.10 40);
+  --destructive-foreground: oklch(0.98 0.010 310);
+  --border: oklch(0.88 0.030 305);
+  --input: oklch(0.90 0.030 305);
+  --ring: oklch(0.52 0.15 305);
 
-  --sage: oklch(0.62 0.05 140);
-  --gold: oklch(0.72 0.09 80);
-  --sand: oklch(0.93 0.02 75);
-  --clay: oklch(0.52 0.10 40);
+  --sage: oklch(0.66 0.11 320);
+  --gold: oklch(0.74 0.09 315);
+  --sand: oklch(0.93 0.035 305);
+  --clay: oklch(0.52 0.15 305);
 }
+
 
 @layer base {
   * {
