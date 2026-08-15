@@ -50,26 +50,47 @@ function SobreMi() {
           </div>
           <div className="reveal space-y-6 text-base leading-relaxed text-foreground/85">
             <p>
-              Soy <strong className="font-medium text-foreground">Wendy Padilla</strong>,
-              psicóloga, autora y facilitadora de desarrollo personal. Mi
-              trabajo nace de la convicción profunda de que el camino más
-              poderoso hacia una vida plena comienza desde adentro: cuando te
-              conoces, cuando te amas y cuando decides mejorar de manera
-              auténtica y sostenida.
+              Soy <strong className="font-medium text-foreground">Wendy Padilla</strong> —
+              psicóloga, autora y facilitadora de desarrollo personal.
             </p>
             <p>
-              Trabajo con mujeres, jóvenes y personas en general que sienten que
-              hay algo más para ellas, que desean dejar de vivir en piloto
-              automático y comenzar a habitarse de verdad.
+              Durante años acompañé a otros a encontrar claridad, y en ese camino
+              aprendí algo que hoy es la base de todo lo que hago: no se puede dar
+              lo que no se tiene. Antes de guiar a alguien hacia su transformación,
+              tuve que habitar la mía. Aprendí —a veces de la forma más difícil—
+              que amarme, conocerme y mejorar cada día no era un lujo ni una frase
+              bonita: era el punto de partida de todo lo demás.
             </p>
             <p>
-              Mi enfoque integra el desarrollo personal con la filosofía{" "}
-              <span className="italic text-primary">Kaizen</span> — el arte del
-              mejoramiento continuo — porque creo que los grandes cambios nacen
-              de pequeños pasos consistentes.
+              De esa convicción nació{" "}
+              <span className="italic text-primary">Kaizen</span>: la filosofía
+              japonesa del mejoramiento continuo, que me enseñó que los grandes
+              cambios no llegan de golpe, sino paso a paso, con constancia y
+              compasión hacia una misma.
+            </p>
+            <p>
+              Hoy acompaño a mujeres, jóvenes y personas que sienten que hay algo
+              más para ellas —que están cansadas de vivir en piloto automático y
+              quieren empezar a habitarse de verdad—. Uno mi formación como psicóloga
+              con herramientas prácticas de desarrollo personal, para crear espacios
+              donde el crecimiento no se sienta forzado, sino auténtico y sostenible.
+            </p>
+            <p>
+              Soy autora de{" "}
+              <strong className="font-medium text-foreground">
+                "Cuando me amé de verdad"
+              </strong>
+              , una guía nacida de mi propia historia, escrita para quien esté lista
+              para pausar, mirar hacia adentro y comenzar su propio camino de amor
+              propio.
+            </p>
+            <p>
+              Si sientes que es momento de conocerte, de amarte de verdad y de mejorar
+              sin perder tu esencia en el intento, este es tu lugar.
             </p>
             <blockquote className="border-l-2 border-accent pl-5 font-serif text-lg italic text-foreground/80">
               «Siempre se puede ser y estar mejor.»
+              <footer className="mt-2 text-sm not-italic text-muted-foreground">— Wendy</footer>
             </blockquote>
             <div className="pt-4">
               <Link
