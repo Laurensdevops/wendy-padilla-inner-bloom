@@ -45,7 +45,9 @@ function Home() {
               No siempre puedes cambiar lo que estás viviendo, pero sí puedes cambiar la manera en que lo atraviesas. 
 
 
+
               HABITARTE es un espacio de educación y desarrollo personal para mujeres que atraviesan distintas etapas, cambios y circunstancias de la vida, y quieren aprender a no abandonarse en el proceso.
+
             </p>
             <blockquote className="mt-8 border-l-2 border-accent pl-5 font-serif text-lg italic text-foreground/80">
               «Siempre se puede ser y estar mejor.»
