@@ -8,6 +8,7 @@ export const IG_URL = `https://instagram.com/${IG_HANDLE}`;
 
 export const navLinks = [
   { to: "/", label: "Inicio" },
+  { to: "/habitarte", label: "Habitarte" },
   { to: "/sobre-mi", label: "Sobre mí" },
   { to: "/servicios", label: "Servicios" },
   { to: "/libro", label: "Libro" },

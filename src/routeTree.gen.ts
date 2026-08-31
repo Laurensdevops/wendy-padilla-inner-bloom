@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as SobreMiRouteImport } from './routes/sobre-mi'
 import { Route as LibroRouteImport } from './routes/libro'
+import { Route as HabitarteRouteImport } from './routes/habitarte'
 import { Route as ContactoRouteImport } from './routes/contacto'
 import { Route as AgendaRouteImport } from './routes/agenda'
 import { Route as IndexRouteImport } from './routes/index'
@@ -25,6 +26,11 @@ const SobreMiRoute = SobreMiRouteImport.update({
 const LibroRoute = LibroRouteImport.update({
   id: '/libro',
   path: '/libro',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HabitarteRoute = HabitarteRouteImport.update({
+  id: '/habitarte',
+  path: '/habitarte',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ContactoRoute = ContactoRouteImport.update({
@@ -57,6 +63,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/agenda': typeof AgendaRoute
   '/contacto': typeof ContactoRoute
+  '/habitarte': typeof HabitarteRoute
   '/libro': typeof LibroRoute
   '/sobre-mi': typeof SobreMiRoute
   '/servicios/$slug': typeof ServiciosSlugRoute
@@ -66,6 +73,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/agenda': typeof AgendaRoute
   '/contacto': typeof ContactoRoute
+  '/habitarte': typeof HabitarteRoute
   '/libro': typeof LibroRoute
   '/sobre-mi': typeof SobreMiRoute
   '/servicios/$slug': typeof ServiciosSlugRoute
@@ -76,6 +84,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/agenda': typeof AgendaRoute
   '/contacto': typeof ContactoRoute
+  '/habitarte': typeof HabitarteRoute
   '/libro': typeof LibroRoute
   '/sobre-mi': typeof SobreMiRoute
   '/servicios/$slug': typeof ServiciosSlugRoute
@@ -87,6 +96,7 @@ export interface FileRouteTypes {
     | '/'
     | '/agenda'
     | '/contacto'
+    | '/habitarte'
     | '/libro'
     | '/sobre-mi'
     | '/servicios/$slug'
@@ -96,6 +106,7 @@ export interface FileRouteTypes {
     | '/'
     | '/agenda'
     | '/contacto'
+    | '/habitarte'
     | '/libro'
     | '/sobre-mi'
     | '/servicios/$slug'
@@ -105,6 +116,7 @@ export interface FileRouteTypes {
     | '/'
     | '/agenda'
     | '/contacto'
+    | '/habitarte'
     | '/libro'
     | '/sobre-mi'
     | '/servicios/$slug'
@@ -115,6 +127,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AgendaRoute: typeof AgendaRoute
   ContactoRoute: typeof ContactoRoute
+  HabitarteRoute: typeof HabitarteRoute
   LibroRoute: typeof LibroRoute
   SobreMiRoute: typeof SobreMiRoute
   ServiciosSlugRoute: typeof ServiciosSlugRoute
@@ -135,6 +148,13 @@ declare module '@tanstack/react-router' {
       path: '/libro'
       fullPath: '/libro'
       preLoaderRoute: typeof LibroRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/habitarte': {
+      id: '/habitarte'
+      path: '/habitarte'
+      fullPath: '/habitarte'
+      preLoaderRoute: typeof HabitarteRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/contacto': {
@@ -179,6 +199,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AgendaRoute: AgendaRoute,
   ContactoRoute: ContactoRoute,
+  HabitarteRoute: HabitarteRoute,
   LibroRoute: LibroRoute,
   SobreMiRoute: SobreMiRoute,
   ServiciosSlugRoute: ServiciosSlugRoute,
