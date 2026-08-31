@@ -42,7 +42,7 @@ function Home() {
               <span className="italic text-primary">Habitarte</span>
             </h1>
             <p className="mt-8 max-w-md text-base leading-relaxed text-muted-foreground">
-              No siempre puedes cambiar lo que estás viviendo, pero sí puedes cambiar la manera en que lo atraviesas.
+              No siempre puedes cambiar lo que estás viviendo, pero sí puedes cambiar la manera en que lo atraviesas. 
 
 
               HABITARTE es un espacio de educación y desarrollo personal para mujeres que atraviesan distintas etapas, cambios y circunstancias de la vida, y quieren aprender a no abandonarse en el proceso.
