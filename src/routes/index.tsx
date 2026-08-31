@@ -39,13 +39,11 @@ function Home() {
               Psicóloga · Autora · Facilitadora
             </p>
             <h1 className="font-serif text-5xl leading-[1.05] tracking-tight md:text-7xl">
-              Desarrollo <span className="italic text-primary">Personal</span>
-              <br />a través del Ser
+              <span className="italic text-primary">Habitarte</span>
             </h1>
             <p className="mt-8 max-w-md text-base leading-relaxed text-muted-foreground">
-              Un espacio para pausar, mirarte de verdad y comenzar a habitarte.
-              Acompañamiento psicológico bajo la filosofía Kaizen: pequeños
-              pasos, cambios reales.
+              No siempre puedes cambiar lo que estás viviendo, pero sí puedes
+              cambiar la manera en que lo atraviesas.
             </p>
             <blockquote className="mt-8 border-l-2 border-accent pl-5 font-serif text-lg italic text-foreground/80">
               «Siempre se puede ser y estar mejor.»
